@@ -1,9 +1,9 @@
 .arrow-button {
     display: inline-block;
-    width: 80px; /* Fixed width for a circular shape */
-    height: 80px; /* Fixed height for a circular shape */
-    background-color: #367faf; /* Initial background color */
-    border-radius: 50%; /* Fully round button */
+    width: 80px; 
+    height: 80px; 
+    background-color: #367faf; 
+    border-radius: 50%; 
     margin-top: 20px;
     position: relative;
     transition: background-color 0.3s, box-shadow 0.3s;
