@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #20a4b9;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff69b4;
+    text-align: center;
+    flex: 1; 
+    margin: 0; 
+    transform: translateX(150px); /* Adjust this value as needed */
+}
+
+
+nav {
+    display: flex;
+    align-items: flex-start; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007acc;
+}

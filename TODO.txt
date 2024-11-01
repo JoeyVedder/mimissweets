@@ -1,6 +1,2 @@
-Make a Review section in home page
-Make a Back button for pages after the home page 
-Have the Contact Me section in the footer and have it stick for each tab opened
-Add picture of hannah in the about me section
-Make About me page the last page 
-Make a Customize/Mix n Match Bitch! option for the orders
+Add Stripe API
+Add Instagram Graph API
