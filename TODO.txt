@@ -1,3 +1,2 @@
 Add Stripe API
 Add Instagram Graph API
-Have hero image be a link to go to the menu
