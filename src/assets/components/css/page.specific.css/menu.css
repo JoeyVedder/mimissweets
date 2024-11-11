@@ -118,3 +118,49 @@ footer {
     background-color: var(--color);
     color: #fff;
 }
+.gf-icon {
+    color: #4CAF50; 
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.index-section {
+    background-color: var(--item-background);
+    border: 2px solid var(--item-border);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.index-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.index-section li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.index-section .fan-favorite-icon {
+    color: var(--color);
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.index-section .gf-icon {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.index-section li:hover {
+    background-color: var(--background-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
