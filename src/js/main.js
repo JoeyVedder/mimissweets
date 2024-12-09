@@ -1,4 +1,4 @@
 function toggleMenu() {
-    const navBar = documnet.getElementById('navBar');
+    const navBar = document.getElementById('navBar');
     navBar.classList.toggle('open');
 }
