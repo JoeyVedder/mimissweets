@@ -1,2 +1,1 @@
-Add Stripe API
-Add Instagram Graph API
+Write framework of UI
