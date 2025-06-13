@@ -1,12 +1,12 @@
 import "./index.css";
+import HomePage from "./pages/Home";
 
 function App() {
-
   return (
     <>
-     <h1 className="font-bold underline text-3xl text-blue-400">Hello World!</h1>
+      <HomePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
