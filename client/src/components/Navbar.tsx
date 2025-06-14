@@ -3,7 +3,7 @@ import type {IRoute} from "../types.ts";
 import {routes} from "../config.tsx";
 
 function CreateNavLink(route: IRoute) {
-    if (!route.visible) 
+    if (!route.visible)
         return (<> </>)
     return (
         <li key={route.path}>
@@ -16,13 +16,8 @@ function CreateNavLink(route: IRoute) {
 
 export default function NavbarComponent() {
     return (
-        <nav className="bg-white shadow-md py-4">
-            <div className="container mx-auto flex justify-between items-center px-4">
-                <h1 className="text-2xl font-bold text-pink-600">Mimi’s Sweets</h1>
-                <ul className="flex space-x-6">
-                    {routes.map(CreateNavLink)}
-                </ul>
-            </div>
-        </nav>
+        <ul className="flex space-x-6">
+            {routes.map(CreateNavLink)}
+        </ul>
     )
 }
