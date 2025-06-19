@@ -17,7 +17,7 @@ export const routes: IRoute[] = [
     },
     {
         path: "/about",
-        name: "About Mimi",
+        name: "About The Baker",
         element: <AboutPage />,
         visible: true
     }
