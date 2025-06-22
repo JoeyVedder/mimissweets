@@ -3,7 +3,7 @@ import type {IRoute} from "../types.ts";
 import {routes} from "../config.tsx";
 
 function CreateNavLink(route: IRoute) {
-    if (!route.visible)
+    if (route.visible === false)
         return (<> </>)
     return (
         <li key={route.path}>
