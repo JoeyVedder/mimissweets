@@ -5,12 +5,17 @@ const AboutPage: React.FC = () => {
     <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-pink-50 px-6 py-12">
       
       {/* Profile Image */}
-      <div className="mb-8 md:mb-0 md:mr-12">
-        <img
-          src="images/mimi.jpg" // Replace with actual image path
-          alt="The Woman, The Myth, The Legend, MIMIIIIIIIIIII"
-          className="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-pink-500"
-        />
+      <div className="mb-8 md:mb-0 md:mr-12 flex items-center justify-center">
+        <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-pink-500 flex items-center justify-center bg-green-100">
+          <img
+          // src="/src/assets/images/mimi1.PNG"
+          // src="/src/assets/images/mimi2.PNG"
+          //trying to see whcih one fits better in the god dang circle 
+        src="src/assets/images/mimi3.PNG"
+        alt="Picture of Hannah, the baker"
+        className="w-full h-full object-cover"
+          />
+        </div>
       </div>
 
       {/* About Info */}

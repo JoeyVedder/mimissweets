@@ -1,11 +1,8 @@
 export default function FooterComponent() {
     return (
-        <footer className="bg-gray-800 text-white p-4 text-center">
+        <footer className="w-full text-center py-6 bg-pink-200 text-pink-800 text-sm">
             <p className="text-sm">
-                &copy; {new Date().getFullYear()} My Application. All rights reserved.
-            </p>
-            <p className="text-xs mt-2">
-                Built with ❤️ using React and Tailwind CSS
+                &copy; {new Date().getFullYear()} Mimi's Sweets. All rights reserved.
             </p>
         </footer>
     )
